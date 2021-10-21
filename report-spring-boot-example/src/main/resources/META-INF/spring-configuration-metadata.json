@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "name": "demo.bind",
+      "type": "com.limbo.report.spring.boot.example.BindConfig",
+      "sourceType": "com.limbo.report.spring.boot.example.BindConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "demo.bind.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.limbo.report.spring.boot.example.BindConfig",
+      "defaultValue": 18
+    },
+    {
+      "name": "demo.bind.jwt",
+      "type": "com.limbo.report.spring.boot.example.Jwt",
+      "sourceType": "com.limbo.report.spring.boot.example.BindConfig"
+    },
+    {
+      "name": "demo.bind.name",
+      "type": "java.lang.String",
+      "description": "set your name",
+      "sourceType": "com.limbo.report.spring.boot.example.BindConfig"
+    },
+    {
+      "name": "demo.bind.your-language",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.limbo.report.spring.boot.example.BindConfig"
+    },
+    {
+      "name": "demo.bind.your-location",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.limbo.report.spring.boot.example.BindConfig"
+    }
+  ],
+  "hints": []
+}

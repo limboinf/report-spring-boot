@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "name": "rgyb.greeting",
+      "type": "com.limbo.report.spring.boot.autoconfig.GreetingProperties",
+      "sourceType": "com.limbo.report.spring.boot.autoconfig.GreetingProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rgyb.greeting.enable",
+      "type": "java.lang.Boolean",
+      "description": "GreetingProperties 开关",
+      "sourceType": "com.limbo.report.spring.boot.autoconfig.GreetingProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "rgyb.greeting.members",
+      "type": "java.util.List<java.lang.String>",
+      "description": "need members",
+      "sourceType": "com.limbo.report.spring.boot.autoconfig.GreetingProperties"
+    }
+  ],
+  "hints": []
+}

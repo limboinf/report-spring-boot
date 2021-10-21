@@ -1,0 +1,24 @@
+
+report:
+  greeting:
+    enable: true
+    members:
+      - Jack
+      - Rose
+
+
+类的属性名与配置文件中的配置名要求匹配
+demo:
+ bind:
+   name: jack
+   AGE: 19         # 大小写不敏感, 可随便写，如age,AGE, aGED等
+   yourLanguage:   # 可直接与属性名保持一致
+     - java
+     - python
+     - golang
+   your_location:  # 可支持下划线转驼峰
+     blog: xxx
+     git: xxx git
+     weibo: xxx weibo
+   Jwt: '{"token": "11111111123", "timestamp": 1610880489123}'
+
